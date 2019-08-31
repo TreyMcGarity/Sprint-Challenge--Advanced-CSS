@@ -9,3 +9,20 @@
     display: flex;
     flex-direction: @order  
 }
+
+.buttom-design(@fill: @btn-bg-color, @width: 100px, @height: 40px,) {
+    font-size: 1.8rem;
+    background: @fill;
+    width: @width;
+    height: @height;
+    color: white;
+    padding: 10px 10px;
+    border: black;
+    border-radius: 5px;
+
+    &:hover {
+        color: @btn-bg-color; //from white
+        background-color: white; //from btn-bg-color
+       }
+      
+}

@@ -190,15 +190,6 @@ footer {
   justify-content: center;
   align-items: center;
 }
-header {
-  justify-content: center;
-  align-items: center;
-  display: flex;
-  flex-direction: column;
-}
-header h1 {
-  font-size: 4rem;
-}
 .home .intro h2 {
   padding: 15px;
 }
@@ -240,6 +231,20 @@ header h1 {
 }
 .home .walk .walk-text p {
   margin-bottom: 26px;
+}
+.home .walk .walk-text .btn {
+  font-size: 1.8rem;
+  background: #22283A;
+  width: 100px;
+  height: 40px;
+  color: white;
+  padding: 10px 10px;
+  border: black;
+  border-radius: 5px;
+}
+.home .walk .walk-text .btn:hover {
+  color: #22283A;
+  background-color: white;
 }
 .home .walk .walk-img {
   width: 46%;
