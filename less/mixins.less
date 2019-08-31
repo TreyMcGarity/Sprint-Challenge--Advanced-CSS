@@ -1,1 +1,11 @@
 // Mixins Here
+.center(@j: center, @a: center) {
+    display: flex;
+    justify-content: @j;
+    align-items: @a;
+}
+
+.position(@order: column) {
+    display: flex;
+    flex-direction: @order  
+}
